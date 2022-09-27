@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+
+.container {
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  justify-content: center;
+}
+
+li {
+  background-color: #3a404d;
+  width: 95%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.label {
+  width: 40%;
+  text-align: center;
+}
+
+.textArea {
+  width: 50%;
+  border-style: none;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  text-align: center;
+  
+}
+
+.Assinatura {
+  width: 80%;
+  height: 30px;
+  border-style: none;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  text-align: center;
+  font-family: 'Passions Conflict', cursive;
+  font-size: 35px;
+}
+
+.button {
+  width: auto;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  border-style: none;
+  background-color: #c8c8cf;
+}
+
+textarea:focus,
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
