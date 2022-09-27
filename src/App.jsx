@@ -3,7 +3,7 @@ import { Lista } from "./components/list/list";
 import { Header } from "./components/header/header";
 
 function App() {
-  const itens = [
+  const bebidas = [
     "Agua com Gás",
     "Agua sem Gás",
     "Coca Lata",
@@ -20,11 +20,13 @@ function App() {
     "Schwepps",
     "Heineken",
     "Original",
-    "Hortelã",
-    "Limão",
-    "Laranja",
-    "Abacaxi",
-    "Morango",
+  ];
+
+  const destilados = ["Cahaça", "Vodka", "Rum"];
+
+  const naturais = ["Hortelã", "Limão", "Laranja", "Abacaxi", "Morango"];
+
+  const sobremesa = [
     "Amendoin",
     "Canudo Biju",
     "Chantily",
@@ -42,6 +44,9 @@ function App() {
     "Petit Gateau",
     "Calda de Nutela",
     "Brownie",
+  ];
+
+  const outros = [
     "Canudo Suco",
     "Canudo Milkshake",
     "Canudo Drink",
@@ -49,15 +54,22 @@ function App() {
     "Garrafa Delivery",
     "Guardanapos",
     "Colher de Molho",
-    "Cahaça",
-    "Vodka",
-    "Rum",
+    "Sache de Sal",
+    "Sache de Açucar",
+    "Palito de Dentes",
+    "Álcool"
   ];
   return (
     <div className="App">
       <header className="App-header">
         <Header />
-        <Lista itens={itens} />
+        <Lista
+          bebidas={bebidas}
+          destilados={destilados}
+          naturais={naturais}
+          sobremesa={sobremesa}
+          outros={outros}
+        />
       </header>
     </div>
   );

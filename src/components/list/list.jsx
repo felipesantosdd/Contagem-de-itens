@@ -1,15 +1,15 @@
 import React from "react";
 import styles from "./styles.module.css";
-export function Lista({ itens }) {
-
-  function enviar(){
-    window.print()
+export function Lista({ bebidas, destilados, naturais, sobremesa, outros }) {
+  function enviar() {
+    window.print();
   }
 
   return (
     <div className={styles.container}>
       <ul>
-        {itens.map((ele) => {
+        <h2>Bebidas</h2>
+        {bebidas.map((ele) => {
           return (
             <li key={ele}>
               <label className={styles.label}>{ele}</label>
@@ -17,6 +17,49 @@ export function Lista({ itens }) {
             </li>
           );
         })}
+
+        <h2>Destilados</h2>
+        {destilados.map((ele) => {
+          return (
+            <li key={ele}>
+              <label className={styles.label}>{ele}</label>
+              <input id={ele} className={styles.textArea} type="text" />
+            </li>
+          );
+        })}
+
+        <h2>Naturais</h2>
+        {naturais.map((ele) => {
+          return (
+            <li key={ele}>
+              <label className={styles.label}>{ele}</label>
+              <input id={ele} className={styles.textArea} type="text" />
+            </li>
+          );
+        })}
+
+        <h2>Sobremesa</h2>
+        {sobremesa.map((ele) => {
+          return (
+            <li key={ele}>
+              <label className={styles.label}>{ele}</label>
+              <input id={ele} className={styles.textArea} type="text" />
+            </li>
+          );
+        })}
+
+        <h2>Outros</h2>
+        {outros.map((ele) => {
+          return (
+            <li key={ele}>
+              <label className={styles.label}>{ele}</label>
+              <input id={ele} className={styles.textArea} type="text" />
+            </li>
+          );
+        })}
+
+
+
 
         <li key="ass">
           <input

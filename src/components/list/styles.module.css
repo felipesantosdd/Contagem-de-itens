@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap");
 
 .container {
   width: 100%;
@@ -36,7 +35,6 @@ li {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   text-align: center;
-  
 }
 
 .Assinatura {
@@ -47,7 +45,7 @@ li {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
   text-align: center;
-  font-family: 'Passions Conflict', cursive;
+  font-family: "Passions Conflict", cursive;
   font-size: 35px;
 }
 
@@ -58,6 +56,7 @@ li {
   text-align: center;
   border-style: none;
   background-color: #c8c8cf;
+  margin: 0 50px 0 50px;
 }
 
 textarea:focus,
