@@ -7,10 +7,13 @@ function App() {
     "Agua com Gás",
     "Agua sem Gás",
     "Coca Lata",
+    "Coca Ks",
     "Coca 600",
     "Coca Lata Z",
+    "Coca Ks Z",
     "Coca 600 Z",
-    "Del Vale",
+    "Del Vale Uva",
+    "Del Vale Pessego",
     "Guarana Lata",
     "Guarana Lata Z",
     "Guarana 600",
@@ -22,9 +25,9 @@ function App() {
     "Original",
   ];
 
-  const destilados = ["Cahaça", "Vodka", "Rum"];
+  const destilados = ["Cahaça", "Vodka", "Rum", "Maça Verde", "Cramberry", "Granadine", "Gengibre"];
 
-  const naturais = ["Hortelã", "Limão", "Laranja", "Abacaxi", "Morango"];
+  const naturais = ["Hortelã", "Limão", "Laranja", "Abacaxi", "Morango", "Pink Limonade"];
 
   const sobremesa = [
     "Amendoin",
